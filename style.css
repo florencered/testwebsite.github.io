@@ -1,0 +1,165 @@
+*{
+      margin: 0px; 
+      padding: 0px; 
+      box-shadow:border-box;
+    }  
+.image{
+
+        margin-top:2rem;
+        background-position: center; 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        width: 100%; 
+        height:90vh;
+        color: white;
+        animation-name:slideshow; 
+        animation-duration: 6s;
+        animation-iteration-count: infinite; 
+        transition-timing-function: ease-in-out; 
+        font-weight: 2rem;
+        
+    } 
+    @keyframes slideshow{
+      0%{
+        background-image:url("images/1.png");
+        
+      } 
+      
+      
+      40%{
+        background-image:url("images/2.png"); 
+        
+      } 
+      60%{
+        background-image:url("images/6.png"); 
+        
+
+        
+        }  
+      80%{
+        background-image:url("images/3.png"); 
+        
+
+        
+        } 
+        100%{
+        background-image:url("images/4.png"); 
+        
+
+        
+        } 
+
+      } 
+      
+.text{
+  display: flex; 
+  align-items: center;
+} 
+.review{
+  width:45vw; 
+  height:7vh;
+} 
+.svg_2{ 
+  display: flex;
+  justify-content: end; 
+
+
+} 
+.subheading:hover{ 
+  background-color:red;
+  border-radius: 3%;
+
+} 
+
+.bwhite:hover{ 
+  background-color:red; 
+  color:white; 
+  transform:scale(1.1); 
+  transition:1000ms;
+} 
+.photo{
+  /*background-image: url(images/7.png); */
+
+  background-position: center; 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+
+} 
+.photo:hover{
+  transform:scale(1.1); 
+  transition:1000ms;
+}
+.enrollmentWays{
+  background: red;
+  
+
+   
+  color: white; 
+  font-size: 1rem;
+} 
+.card:hover{
+  transform:scale(1.1); 
+  transition:1000ms;
+}
+.img-gallery img{ 
+  cursor:pointer; 
+  border-radius:10px;
+
+} 
+.img-gallery img:hover{
+    transform: scale(0.8) rotate(-15deg); 
+    border-radius:20px; 
+    box-shadow:0 32px 75px rgba(68,77,136,0.2); 
+    transition:1000ms;
+} 
+.full-img{
+  width:100%; 
+  height:100vh; 
+  background:rgba(0,0,0,0.9); 
+  position:fixed; 
+  top:0; 
+  left:0; 
+  display:none; 
+  align-items:center; 
+  justify-content: center; 
+  z-index: 100;
+
+} 
+.full-img img{
+  width: 90%; 
+  max-width: 500px;
+}
+.full-img span{
+  position: absolute; 
+  top:10%; 
+  right:3%; 
+  font-size: 30px; 
+  color: white;  
+  cursor:pointer; 
+
+
+} 
+
+.swiper {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 400px;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%; 
+        height:400px;
+      } 
+.footer{
+  background-color:black; 
+  color:white;
+
+}
